@@ -38,7 +38,9 @@
    $ $ZEPPELIN_HOME/bin/zeppelin-daemon.sh restart
 
 4) Create new Interpreter, select "jdbc" as the category, name as "drill"
-   Enter few fields:
+   
+   Update few fields:
+   
    default.url: jdbc:drill:drillbit=<hostname>:31010;auth=maprsasl
 
     (For example: jdbc:drill:drillbit=rrl-ecp-demo-externaldf-host-1:31010;auth=MAPRSASL)
